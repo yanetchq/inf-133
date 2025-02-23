@@ -1,0 +1,72 @@
+/* Reset de estilos predeterminados */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Miniver&family=Pacifico&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&family=Rock+Salt&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    line-height: 1.6;
+}
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left{
+    background: linear-gradient(rgba(94, 93, 93, 0.85),rgba(192, 142, 182, 0.1)),url(../images/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1; 
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+.right {
+    background: linear-gradient(rgba(210, 174, 211, 0.1),rgba(94, 93, 93, 0.85)),url(../images/img5.webp);
+    background-size: cover;
+    background-position: center;
+    flex: 1; 
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+.left:hover, .right:hover{
+    transform: scale(0.95);
+}
+.left h1 {
+    font-family: 'Miniver', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.right h1 {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #fcad26;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button:hover{
+    background: #fcc567;
+    color: white;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

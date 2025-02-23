@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.section-content{
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+header{
+    background: #3b141c;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background: #3b141c;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
+.navbar .nav-menu .nav-link{
+    color: #fff;
+    padding: 10px 18px;
+    border-radius:25px;
+    font-size: medium;
+    transition: 0.3s ease;
+    background: #3b141c;
+}
+.navbar .nav-menu .nav-link:hover{
+    color: #3b141c;
+    background: goldenrod;
+}
+.navbar .nav-logo .logo-text{
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.idk-section{
+    min-height: 80vh;
+    background-color: #3b141c;
+
+}
+.idk-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    color: #fff;
+    justify-content: space-between;
+}
+.idk-section .idk-details .title{
+    font-size: xx-large;
+    color: goldenrod;
+    font-family: "Miniver", sans-serif;
+}
+.idk-section .idk-details .subtitle{
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.idk-section .idk-details .description{
+    max-width: 70%;
+    margin:24px 0 40px;
+    font-size: medium;
+}
+.idk-section .idk-details .buttons{
+    display: flex;
+    gap: 23px;
+}
+.idk-section .idk-details .button{
+    padding: 10px 26px;
+    color: #3b141c;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background: goldenrod;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.idk-section .idk-details .button:hover,.idk-section .idk-details .contactar{
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+}
+.idk-section .idk-details .contactar:hover{
+    color:#3b141c;
+    border-color:goldenrod;
+    background: goldenrod;
+}
+footer {
+    text-align: center;
+    background-color: goldenrod;
+    color: white;
+    padding: 30px 0;
+}
