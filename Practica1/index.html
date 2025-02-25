@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Column Layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Practica N° 1</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://github.com/yanetchq/inf-133">Enlace a GitHub</a>
+          </li>
+          <li><a href="#">Ver practica 1</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <h3>Ver otros diseños de layouts</h3>
+        <ul>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/singlecolum/">Single Column Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/twocolum/">Two column Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/card/">Card Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/splitscreen/">Splitscreen Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/magazine/">Magazine Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/f-shape/">F-shape Layout</a></li>
+            <li><a href="https://yanetchq.github.io/inf-133/Practica1/z-shape/">Z-shape Layout</a></li>
+        </ul>
+    </aside>
+      <main class="main-content">
+        <article>
+          <h1>1. Layout Estático</h1>
+          <p>Un <b>layout estático</b> es aquel en el que los elementos tienen un tamaño fijo y no cambian ni se ajustan según el tamaño de la pantalla o la ventana del navegador. Es decir, todo el contenido tiene un ancho y altura fijos (en píxeles), y no se adapta a pantallas más grandes o más pequeñas.</p>
+          <center>
+            <div class="clase1">header</div>
+
+            <div class="clase2">
+              <div class="cuadro1">sidebar</div>
+              <div class="cuadro2">contenido</div>
+            </div>
+
+            <div class="clase3">footer</div>
+          </center>
+          <br>
+          <hr>
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+
+          <h1>2. Layout Fluido (Liquid Layout)</h1>
+
+          <p>Un <b>layout líquido</b> es un diseño web en el que los elementos de la página se ajustan de manera dinámica al ancho de la ventana del navegador. A diferencia de un layout estático, donde los elementos tienen tamaños fijos, un layout líquido utiliza unidades relativas como porcentajes en lugar de píxeles, permitiendo que los contenidos se adapten al tamaño de la pantalla, tanto en dispositivos grandes como pequeños.</p>
+          <center>
+          <div class="clase4">header</div>
+
+          <div class="clase5">
+            <div class="cuadro3">sidebar</div>
+            <div class="cuadro4">contenido</div>
+          </div>
+
+          <div class="clase6">footer</div>
+          </center>
+          <br>
+          <hr>
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+         
+          <h1>3. Layout Responsivo</h1>
+          <p>Un <b>layout responsivo</b> es un diseño web que se adapta de manera flexible a diferentes tamaños de pantalla (por ejemplo, desde escritorios grandes hasta dispositivos móviles). Utiliza unidades relativas (como porcentajes, em, rem, o vw) y las media queries de CSS para ajustar el diseño según las características del dispositivo (ancho, altura, resolución).</p>
+      
+          <center>
+            <div class="clase7">header</div>
+
+            <div class="clase8">
+              <div class="cuadro5">side bar</div>
+              <div class="cuadro6">contenido</div>
+            </div>
+
+            <div class="clase9">footer</div>
+          </center>
+
+          <br>
+          <hr>
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+          <h1>4. Layout Adaptativo (Adaptive Layout)</h1>
+          <p>Un <b>layout adaptivo</b> es un diseño web que se ajusta a varios tamaños de pantalla utilizando distintos diseños predeterminados para rangos de dispositivos específicos (como escritorio, tabletas y móviles). A diferencia de un layout responsivo, que ajusta fluidamente los elementos según el tamaño de la pantalla, un layout adaptivo utiliza diseños fijos para varios anchos específicos de pantalla y se adapta según el dispositivo o resolución.
+          <br>
+          Un layout adaptivo puede ser útil cuando se necesita más control sobre cómo se presentan los elementos en diferentes tipos de dispositivos, aplicando un conjunto de reglas de estilo específicas para cada tipo de pantalla.</p>
+          <center>
+            <div class="clase10">header</div>
+
+            <div class="clase11">
+              <div class="cuadro7">sidebar</div>
+              <div class="cuadro8">contenido</div>
+            </div>
+
+            <div class="clase12">footer</div>
+          </center>
+               
+          <br>
+          <hr>
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+
+          <h1>5. Layout Basado en CSS Grid</h1>
+          <p>El <b>CSS Grid Layout</b> es un sistema de diseño bidimensional que te permite crear diseños complejos utilizando filas y columnas. Es muy útil para crear layouts que se adapten a diferentes tamaños de pantalla de manera eficiente. A continuación, te muestro un ejemplo básico de un layout basado en CSS Grid.</p>
+          <center>
+            <div class="clase20">header</div>
+
+            <div class="clase21">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+
+            <div class="clase21">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+
+            <div class="clase23">footer</div>
+          </center>
+
+          <br>
+          <hr>
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+          <h1>6. Layout Basado en Flexbox</h1>
+          <p>El <b>Flexbox Layout</b> es un sistema de diseño unidimensional que permite distribuir el espacio entre los elementos de un contenedor, alinearlos y distribuirlos de manera flexible. Es ideal para crear layouts donde el tamaño de los elementos puede variar, y se adapta bien a pantallas de diferentes tamaños.</p>
+          <center>
+            <div class="clase24">header</div>
+
+            <div class="clase27">
+              <div class="menu"></div>
+              <div class="menu"></div>
+              <div class="menu"></div>
+              <div class="menu"></div>
+            </div>
+
+            <div class="clase25">
+              <div class="cdr"></div>
+              <div class="cdr1">
+                <div class="fila1"></div>
+                <div class="fila2">
+                  <div class="centro"></div>
+                  <div class="centro"></div>
+                </div>
+              </div>
+              <div class="cdr"></div>
+            </div>
+
+            <div class="clase26">footer</div>
+          </center>
+
+          <br>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+          </article>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2025. Yanet Churata.</p>
+    </footer>
+  </body>
+</html>

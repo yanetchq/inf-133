@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #3b141c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header .logo h1 {
+    font-size: 2rem;
+    padding: 20px;
+    text-transform: uppercase;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius:25px;
+    font-size: medium;
+    transition: 0.3s ease;
+    background: #3b141c;
+}
+nav ul li a:hover{
+    color: #3b141c;
+    background: goldenrod;
+}
+.container { 
+    display: flex;
+}
+.main-content {
+    flex: 3;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.main-content article p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.sidebar {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 4px 18px;
+    border-radius:25px;
+    font-size: medium;
+    transition: 0.1s ease;
+    background: #f8f8f8;
+}
+.sidebar ul li a:hover{
+    color: #f8f8f8;
+    background: rgb(196, 70, 108);
+}
+
+/*---------------P R I M E R O----------------------*/
+
+.clase1 {
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(240, 146, 158);
+    margin: 5px;
+  }
+  .clase2 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 250px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .cuadro1 {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(249, 224, 203);
+  }
+  .cuadro2 {
+    width: 800px;
+    height: 250px;
+    background-color: rgb(252, 215, 247);
+  }
+  .clase3 {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(193, 165, 165);
+    margin: 5px;
+  }
+  .letra {
+    font-size: 20px;
+  }
+  /*---------------------S E G U N D O----------------------*/
+  .clase4 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(185, 184, 250);
+    margin: 5px;
+  }
+  .clase5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .cuadro3 {
+    width: 35%;
+    height: 250px;
+    background-color: rgb(221, 255, 255);
+  }
+  .cuadro4 {
+    width: 65%;
+    height: 250px;
+    background-color: rgb(181, 243, 243);
+  }
+  .clase6 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(168, 200, 211);
+    margin: 5px;
+  }
+  /*---------------------T E R C E R O--------------------*/
+  
+  .clase7 {
+    width: 85%;
+    max-width: 1200px;
+    height: 150px;
+    background-color: rgb(178, 217, 142);
+    margin: 5px;
+  }
+  .clase8 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    max-width: 1200px;
+    height: 250px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .cuadro5 {
+    width: 35%;
+    height: 250px;
+    background-color: rgb(186, 214, 180);
+  }
+  .cuadro6 {
+    width: 65%;
+    height: 250px;
+    background-color: rgb(181, 218, 187);
+  }
+  .clase9 {
+    width: 85%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: rgb(177, 232, 175);
+    margin: 5px;
+  }
+  @media (max-width: 800px) {
+    .clase7 {
+      background-color: rgb(149, 254, 176);
+    }
+  }
+  /*----------------------- C U A R T O ----------------------*/
+  .clase10 {
+    width: 85%;
+    /*max-width: 1200px;*/
+    height: 150px;
+    background-color: rgb(236, 173, 122);
+    margin: 5px;
+  }
+  .clase11 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    max-width: 1200px;
+    height: 250px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .cuadro7 {
+    width: 35%;
+    height: 250px;
+    background-color: rgb(226, 233, 168);
+  }
+  .cuadro8 {
+    width: 65%;
+    height: 250px;
+    background-color: rgb(246, 248, 148);
+  }
+  .clase12 {
+    width: 85%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: rgb(239, 213, 160);
+    margin: 5px;
+  } /*
+  @media (min-width: 1024px){
+      .clase10{
+          width: 1000px;
+      }
+  }*/
+  @media (max-width: 1023px) {
+    .clase10 {
+      width: 750px;
+    }
+  }
+  @media (max-width: 767px) {
+    .clase10 {
+      width: 90%;
+    }
+  }
+  
+  /*--------------------- Q U I N T O -------------------------*/
+
+  .clase20 {
+    width: 95%;
+    height: 170px;
+    background-color: rgb(255, 195, 220);
+    margin: 5px;
+  }
+  .clase21 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    height: 300px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .clase22 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    height: 200px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .clase23 {
+    width: 95%;
+    height: 100px;
+    background-color: rgb(211, 166, 194);
+    margin: 5px;
+  }
+  .box {
+    background-color: rgb(233, 212, 218);
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*-------------------SEXTO--------------------------*/
+  .clase24 {
+    width: 95%;
+    height: 170px;
+    background-color: #ccacff;
+    margin: 5px;
+  }
+  .clase25 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 300px;
+    gap: 5px;
+    margin: 5px;
+  }
+  .clase26 {
+    width: 95%;
+    height: 100px;
+    background-color: rgb(231, 209, 250);
+    margin: 5px;
+  }
+  .cdr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    background-color: #ccccff;
+  }
+  .cdr1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+  .fila1 {
+    background-color: #e7c1f3;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+  .fila2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+  .centro {
+    width: 100%;
+    height: 100%;
+    background-color: #bba6c2;
+    background-color: #e6d5f7;
+  }
+
+/* footer*/
+footer {
+    text-align: center;
+    background-color: goldenrod;
+    color: white;
+    padding: 30px 0;
+}
