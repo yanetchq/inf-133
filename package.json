@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "element-plus": "^2.9.11",
+    "sweetalert2": "^11.22.0"
+  }
+}
